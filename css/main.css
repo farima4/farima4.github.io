@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    filter: blur(1.3px);
+    z-index: -1;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: black;
+    height: 100vh;
+}
+
+#welcome {
+    color: white;
+    font-size: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    padding: 2px;
+}
+
+h2 {
+    color: white;
+    font-size: 300%;
+    text-align: center;
+}
+
+#whoami {
+    transform: rotate(-5deg);
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#github {
+    border-style: solid;
+    border-width: 3px;
+    background-color: grey;
+    color: red;
+}
+
+#per {
+    color: wheat;
+}
+
+#alllinks {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#links {
+    text-align: center;
+    align-content: center;
+}
+
+#discordinvite {
+    background-color: #5F6AEA;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#yt {
+    margin-top: 10px
+}
